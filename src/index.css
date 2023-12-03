@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right top, #5c039e, #5c039e, #5c039e, #5c039e, #5c039e, #6104a5, #6504ad, #6a05b4, #7507c5, #7f09d6, #8a0be7, #950df9)!important;
+  background-repeat: no-repeat !important; 
+  background-size: cover;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root {
+  --font-color: white;
+  --background-color: #0D1116;
+  --link-color: cornflowerblue !important;
+  font-family: "Inter", sans-serif !important;
 }
